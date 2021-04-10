@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>function example</title>
+</head>
+<body>
+    <p style="background-color: red;display: inline-block;padding: 10px;" onclick="add()">click me</p>
+    <div id="check"></div>
+    <script>
+        
+        function add(){
+            var a=30;
+            var b=60;
+            if(a==30){
+                document.getElementById("check").innerHTML=`Add ${a} and ${b} = ${a+b}`;
+            }else{
+                document.getElementById("check").innerHTML="Value is not correct";
+            }
+
+        }
+
+       
+    </script>
+</body>
+</html>
